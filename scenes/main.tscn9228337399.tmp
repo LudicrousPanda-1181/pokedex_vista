@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://c7ck7skhjkqsq"]
+
+[ext_resource type="Texture2D" uid="uid://bcjbqvet7k2ff" path="res://assets/media/images/forest_art_better.jpeg" id="1_sugp2"]
+[ext_resource type="PackedScene" uid="uid://g21uogkf6jko" path="res://scenes/hud/battle_hud.tscn" id="2_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://c2mgjerchdu2y" path="res://assets/media/images/trainer_image.png" id="3_sugp2"]
+[ext_resource type="Texture2D" uid="uid://c44fdxiug66x3" path="res://assets/media/sprites/menu_background.png" id="4_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://cxpd8oxuq8o8v" path="res://scenes/pokedex/pokedex.tscn" id="5_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://cxv73a6yh73q7" path="res://scenes/pokedex/pkdx_hud.tscn" id="6_tefeu"]
+[ext_resource type="Script" uid="uid://cfe0qwkaceysw" path="res://scripts/pkdx_hud.gd" id="7_o6xl0"]
+[ext_resource type="Script" uid="uid://dby6eko6el2uv" path="res://scripts/database.gd" id="8_tipki"]
+
+[node name="Main" type="Node2D" unique_id=1217186146]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=202523027]
+z_index = -1
+texture_filter = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_sugp2")
+
+[node name="battle_hud" parent="." unique_id=507707311 instance=ExtResource("2_0wfyh")]
+z_index = 1
+offset_left = 1920.0
+offset_top = 1080.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+size_flags_horizontal = 8
+
+[node name="TrainerImage" type="Sprite2D" parent="." unique_id=1111742335]
+texture_filter = 1
+position = Vector2(324, 867)
+scale = Vector2(2, 2)
+texture = ExtResource("3_sugp2")
+
+[node name="MenuBackground" type="Sprite2D" parent="." unique_id=208018140]
+texture_filter = 1
+position = Vector2(1657, 1046.0001)
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("4_jyhfs")
+
+[node name="camera" type="Camera2D" parent="." unique_id=1060847883]
+position = Vector2(960, 540)
+
+[node name="pokedex" parent="." unique_id=1357983449 instance=ExtResource("5_tbgi4")]
+position = Vector2(0, 1629)
+
+[node name="pkdx_hud" parent="." unique_id=1045566788 instance=ExtResource("6_tefeu")]
+offset_top = 1629.0
+offset_bottom = 1629.0
+script = ExtResource("7_o6xl0")
+
+[node name="Button" type="Button" parent="pkdx_hud" unique_id=1458823841]
+z_index = -1
+layout_mode = 0
+offset_left = 44.0
+offset_top = 42.0
+offset_right = 129.0
+offset_bottom = 131.0
+
+[node name="database" type="Node" parent="." unique_id=2086961849]
+script = ExtResource("8_tipki")
+
+[connection signal="pressed" from="pkdx_hud/Button" to="pkdx_hud" method="_on_button_pressed"]

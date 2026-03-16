@@ -1,0 +1,273 @@
+[gd_scene format=3 uid="uid://cxv73a6yh73q7"]
+
+[ext_resource type="Script" uid="uid://dby6eko6el2uv" path="res://scripts/database.gd" id="1_byu76"]
+[ext_resource type="Script" uid="uid://cfe0qwkaceysw" path="res://scripts/pkdx_hud.gd" id="1_caahp"]
+[ext_resource type="Script" uid="uid://c5fuobu7unw04" path="res://scripts/text_script.gd" id="2_jwel6"]
+[ext_resource type="FontFile" uid="uid://c6yp5km4ufegx" path="res://assets/media/fonts/connection_ii/ConnectionII.otf" id="3_2xfq1"]
+[ext_resource type="Script" uid="uid://cnpa5u5xv6wob" path="res://scripts/items.gd" id="4_2xfq1"]
+[ext_resource type="PackedScene" uid="uid://cxpd8oxuq8o8v" path="res://scenes/pokedex/pokedex.tscn" id="4_jwel6"]
+
+[node name="pkdx_hud" type="Control" unique_id=1045566788]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -3.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_caahp")
+
+[node name="database_dex" type="Node" parent="." unique_id=404892173]
+script = ExtResource("1_byu76")
+
+[node name="button_right" type="Button" parent="database_dex" unique_id=505320963]
+z_index = -1
+offset_left = 1633.0
+offset_top = 2366.0
+offset_right = 1761.0
+offset_bottom = 2494.0
+
+[node name="button_left" type="Button" parent="database_dex" unique_id=1843853059]
+z_index = -1
+offset_left = 1379.0
+offset_top = 2366.0
+offset_right = 1507.0
+offset_bottom = 2494.0
+
+[node name="text_alignment" type="Control" parent="database_dex" unique_id=1947978947]
+layout_mode = 3
+anchors_preset = 0
+offset_top = 1629.0
+offset_right = 40.0
+offset_bottom = 1669.0
+script = ExtResource("2_jwel6")
+
+[node name="pkmn_name" type="Label" parent="database_dex/text_alignment" unique_id=2000437282]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 218.0
+offset_top = 232.0
+offset_right = 357.0
+offset_bottom = 281.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 56
+text = "Name:"
+
+[node name="pkmn_name_box" type="Label" parent="database_dex/text_alignment/pkmn_name" unique_id=905426098]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 255.0
+offset_top = 3.0
+offset_right = 522.0
+offset_bottom = 52.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 56
+
+[node name="pkmn_type" type="Label" parent="database_dex/text_alignment" unique_id=2126753506]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 218.0
+offset_top = 404.0
+offset_right = 301.0
+offset_bottom = 453.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "Type:"
+
+[node name="pkmn_type_box" type="Label" parent="database_dex/text_alignment/pkmn_type" unique_id=1198927458]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 252.0
+offset_right = 454.0
+offset_bottom = 49.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+
+[node name="pkmn_height" type="Label" parent="database_dex/text_alignment" unique_id=704424906]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 222.0
+offset_top = 575.0
+offset_right = 330.0
+offset_bottom = 624.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "Height:"
+
+[node name="pkmn_height_box" type="Label" parent="database_dex/text_alignment/pkmn_height" unique_id=2026728169]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 254.0
+offset_top = -10.0
+offset_right = 404.0
+offset_bottom = 39.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+
+[node name="pkmn_weight" type="Label" parent="database_dex/text_alignment" unique_id=1148963445]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 219.0
+offset_top = 672.0
+offset_right = 341.0
+offset_bottom = 741.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "Weight:
+"
+
+[node name="pkmn_weight_box" type="Label" parent="database_dex/text_alignment/pkmn_weight" unique_id=764996699]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 256.0
+offset_top = -3.0
+offset_right = 378.0
+offset_bottom = 66.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "
+"
+
+[node name="pkmn_desc" type="Label" parent="database_dex/text_alignment" unique_id=935017803]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 221.0
+offset_top = 805.0
+offset_right = 404.0
+offset_bottom = 874.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "Description:
+"
+
+[node name="pkmn_desc_box" type="Label" parent="database_dex/text_alignment/pkmn_desc" unique_id=1051482020]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_top = 57.0
+offset_right = 255.0
+offset_bottom = 126.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "
+"
+
+[node name="pkmn_evolve" type="Label" parent="database_dex/text_alignment" unique_id=711783101]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 220.0
+offset_top = 491.0
+offset_right = 396.0
+offset_bottom = 560.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "Evolves by:
+"
+
+[node name="pkmn_evolve_box" type="Label" parent="database_dex/text_alignment/pkmn_evolve" unique_id=387445571]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 256.0
+offset_top = -3.0
+offset_right = 498.0
+offset_bottom = 66.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+
+[node name="pkmn_caught" type="Label" parent="database_dex/text_alignment" unique_id=1672542045]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 759.0
+offset_top = 666.0
+offset_right = 889.0
+offset_bottom = 735.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "Caught: 
+"
+
+[node name="pkmn_caught_box" type="Label" parent="database_dex/text_alignment/pkmn_caught" unique_id=325058235]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 150.0
+offset_top = 1.0
+offset_right = 272.0
+offset_bottom = 70.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "
+"
+
+[node name="pkmn_nmbr" type="Label" parent="database_dex/text_alignment" unique_id=1223470462]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 219.0
+offset_top = 324.0
+offset_right = 421.0
+offset_bottom = 373.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+text = "Dex number:"
+
+[node name="pkmn_nmbr_box" type="Label" parent="database_dex/text_alignment/pkmn_nmbr" unique_id=236916543]
+z_index = 2
+texture_filter = 1
+layout_mode = 0
+offset_left = 252.0
+offset_right = 454.0
+offset_bottom = 49.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 32
+
+[node name="searchbar" type="LineEdit" parent="database_dex" unique_id=1398998563]
+z_index = 2
+offset_left = 1339.0
+offset_top = 1890.0
+offset_right = 1727.0
+offset_bottom = 1921.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="database_dex/searchbar" unique_id=953634594]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 49.0
+offset_right = 385.0
+offset_bottom = 183.0
+
+[node name="items" type="VBoxContainer" parent="database_dex/searchbar/ScrollContainer" unique_id=1177292707]
+layout_mode = 2
+script = ExtResource("4_2xfq1")
+
+[node name="Button" type="Button" parent="database_dex/searchbar/ScrollContainer/items" unique_id=716428793]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_2xfq1")
+
+[node name="Button2" type="Button" parent="database_dex/searchbar/ScrollContainer/items" unique_id=346025093]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_2xfq1")
+
+[node name="Button3" type="Button" parent="database_dex/searchbar/ScrollContainer/items" unique_id=152102937]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_2xfq1")
+
+[node name="pokedex" parent="." unique_id=1357983449 instance=ExtResource("4_jwel6")]
+position = Vector2(6, 1638)
+
+[connection signal="pressed" from="database_dex/button_right" to="database_dex" method="_on_button_right_pressed"]
+[connection signal="pressed" from="database_dex/button_left" to="database_dex" method="_on_button_left_pressed"]
+[connection signal="text_changed" from="database_dex/searchbar" to="." method="_on_searchbar_text_changed"]

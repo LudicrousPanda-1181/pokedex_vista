@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://cxpd8oxuq8o8v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jg3fy"]
+bg_color = Color(1, 0.92156863, 0.92156863, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k4uv4"]
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lemmf"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m765o"]
+bg_color = Color(0.27450982, 0.8235294, 0.972549, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[node name="pokedex" type="Node2D" unique_id=1357983449]
+
+[node name="background_layer" type="ColorRect" parent="." unique_id=1102317066]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(1, 0, 0, 1)
+
+[node name="screen_layer" type="PanelContainer" parent="." unique_id=2027729320]
+z_index = 1
+offset_left = 154.0
+offset_top = 158.0
+offset_right = 1179.0
+offset_bottom = 945.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_jg3fy")
+
+[node name="menu_layer" type="PanelContainer" parent="." unique_id=774942660]
+offset_left = 1289.0
+offset_top = 219.0
+offset_right = 1828.0
+offset_bottom = 555.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_k4uv4")
+
+[node name="design_layer" type="Control" parent="." unique_id=1777998775]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 165.0
+offset_bottom = 162.0
+
+[node name="white_circle" type="PanelContainer" parent="design_layer" unique_id=83559340]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 42.0
+offset_right = 129.0
+offset_bottom = 131.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_lemmf")
+
+[node name="PanelContainer" type="PanelContainer" parent="design_layer" unique_id=1629666757]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 55.0
+offset_right = 118.0
+offset_bottom = 119.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_m765o")
+
+[node name="dpad_part1" type="ColorRect" parent="design_layer" unique_id=397747190]
+layout_mode = 0
+offset_left = 1507.0
+offset_top = 629.0
+offset_right = 1633.0
+offset_bottom = 973.0
+color = Color(0.14044744, 0.14044744, 0.14044744, 1)
+
+[node name="dpad_part2" type="ColorRect" parent="design_layer" unique_id=253313515]
+layout_mode = 0
+offset_left = 1379.0
+offset_top = 737.0
+offset_right = 1761.0
+offset_bottom = 865.0
+color = Color(0.14044744, 0.14044744, 0.14044744, 1)
+
+[node name="white_circle2" type="PanelContainer" parent="design_layer" unique_id=2074812756]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 63.0
+offset_right = 76.0
+offset_bottom = 70.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_lemmf")
