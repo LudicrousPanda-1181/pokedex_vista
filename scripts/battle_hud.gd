@@ -44,5 +44,5 @@ func _on_button_run_pressed() -> void:
 
 # DEX BUTTON PRESS
 func _on_button_dex_pressed() -> void:
-	print("You pressed the DEX button!")
+	print("You pressed the DEX button!!!")
 	$"../camera".position.y =  2169.0

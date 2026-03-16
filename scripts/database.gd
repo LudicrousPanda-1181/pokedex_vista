@@ -1,5 +1,7 @@
 extends Node
 
+class_name Database
+
 var database = SQLite
 var current_id: int = 0
 
@@ -18,6 +20,7 @@ func _ready() -> void:
 	database = SQLite.new()
 	database.path = "res://db/pkmn_database_gen1_complete.db"
 	database.open_db()
+	
 	play_animation_from_id(current_id)
 	update_dex_info_by_id(current_id)
 
@@ -116,3 +119,16 @@ func _on_button_left_pressed() -> void:
 	play_animation_from_id(current_id)
 	update_dex_info_by_id(current_id)
 	print(current_id)
+
+
+
+func search_pokemon(search_text : String):
+
+	search_text = search_text.to_lower()
+
+	var query = "SELECT id, pkmn_name FROM pokemon WHERE LOWER(pkmn_name) LIKE '%" + search_text + "%' LIMIT 3;"
+
+	if database.query(query):
+		return database.query_result
+
+	return []

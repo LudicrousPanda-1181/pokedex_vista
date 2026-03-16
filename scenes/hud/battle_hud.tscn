@@ -85,7 +85,7 @@
 [ext_resource type="Texture2D" uid="uid://dtt2aslhxkaab" path="res://assets/media/sprites/sprite_sheets_sem/metapod-ezgif.com-gif-to-sprite-converter.png" id="83_yen78"]
 [ext_resource type="Texture2D" uid="uid://duqyf3rj4xohs" path="res://assets/media/sprites/sprite_sheets_danny/mew-ezgif.com-gif-to-sprite-converter.png" id="84_5nbdj"]
 [ext_resource type="Texture2D" uid="uid://72be20nnu18p" path="res://assets/media/sprites/sprite_sheets_danny/mewtwo-ezgif.com-gif-to-sprite-converter.png" id="85_83t7e"]
-[ext_resource type="Texture2D" uid="uid://b0gfxl68yxvr3" path="res://assets/media/sprites/sprite_sheets_danny/missingno-ezgif.com-gif-to-sprite-converter.png" id="86_0bd6o"]
+[ext_resource type="Texture2D" uid="uid://bam6deex58rea" path="res://assets/media/images/missingno_by_cortoony_ddl7rju-fullview-2279844697.png" id="86_cc0f7"]
 [ext_resource type="Texture2D" uid="uid://bohhbmvsh4kr6" path="res://assets/media/sprites/sprite_sheets_danny/moltres-ezgif.com-gif-to-sprite-converter.png" id="87_fjbvi"]
 [ext_resource type="Texture2D" uid="uid://c42fwmcuaipno" path="res://assets/media/sprites/sprite_sheets_danny/mrmime-ezgif.com-gif-to-sprite-converter.png" id="88_gkr44"]
 [ext_resource type="Texture2D" uid="uid://bfjqmstaireh5" path="res://assets/media/sprites/sprite_sheets_danny/muk-ezgif.com-gif-to-sprite-converter.png" id="89_0x6lo"]
@@ -18075,9 +18075,9 @@ region = Rect2(300, 1496, 100, 88)
 atlas = ExtResource("85_83t7e")
 region = Rect2(400, 1496, 100, 88)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_udmkb"]
-atlas = ExtResource("86_0bd6o")
-region = Rect2(0, 0, 498, 498)
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jfy0"]
+atlas = ExtResource("86_cc0f7")
+region = Rect2(0, 0, 355, 285)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4bgeo"]
 atlas = ExtResource("87_fjbvi")
@@ -47003,7 +47003,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_udmkb")
+"texture": SubResource("AtlasTexture_7jfy0")
 }],
 "loop": true,
 "name": &"missingno.gif",
@@ -58737,7 +58737,7 @@ texture_filter = 1
 position = Vector2(-948.99994, -382.99994)
 scale = Vector2(3.2173913, 3.1698112)
 sprite_frames = SubResource("SpriteFrames_uxdas")
-animation = &"charmeleon.gif"
+animation = &"missingno.gif"
 script = ExtResource("155_pe8w8")
 
 [node name="battle_progress_txt" type="Label" parent="." unique_id=182794401]

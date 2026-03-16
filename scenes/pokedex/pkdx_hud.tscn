@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://cxv73a6yh73q7"]
 
 [ext_resource type="Script" uid="uid://dby6eko6el2uv" path="res://scripts/database.gd" id="1_byu76"]
-[ext_resource type="Script" uid="uid://cfe0qwkaceysw" path="res://scripts/pkdx_hud.gd" id="1_caahp"]
+[ext_resource type="Script" uid="uid://cfe0qwkaceysw" path="res://scripts/searchbar.gd" id="1_caahp"]
 [ext_resource type="Script" uid="uid://c5fuobu7unw04" path="res://scripts/text_script.gd" id="2_jwel6"]
 [ext_resource type="FontFile" uid="uid://c6yp5km4ufegx" path="res://assets/media/fonts/connection_ii/ConnectionII.otf" id="3_2xfq1"]
-[ext_resource type="Script" uid="uid://cnpa5u5xv6wob" path="res://scripts/items.gd" id="4_2xfq1"]
 [ext_resource type="PackedScene" uid="uid://cxpd8oxuq8o8v" path="res://scenes/pokedex/pokedex.tscn" id="4_jwel6"]
+[ext_resource type="Texture2D" uid="uid://cipuvp4tf0y6i" path="res://assets/media/images/lupa-283987705.png" id="6_caahp"]
 
 [node name="pkdx_hud" type="Control" unique_id=1045566788]
 layout_mode = 3
@@ -236,10 +236,10 @@ theme_override_font_sizes/font_size = 32
 
 [node name="searchbar" type="LineEdit" parent="database_dex" unique_id=1398998563]
 z_index = 2
-offset_left = 1339.0
-offset_top = 1890.0
-offset_right = 1727.0
-offset_bottom = 1921.0
+offset_left = 1334.0
+offset_top = 1943.0
+offset_right = 1722.0
+offset_bottom = 1974.0
 theme_override_fonts/font = ExtResource("3_2xfq1")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="database_dex/searchbar" unique_id=953634594]
@@ -251,7 +251,6 @@ offset_bottom = 183.0
 
 [node name="items" type="VBoxContainer" parent="database_dex/searchbar/ScrollContainer" unique_id=1177292707]
 layout_mode = 2
-script = ExtResource("4_2xfq1")
 
 [node name="Button" type="Button" parent="database_dex/searchbar/ScrollContainer/items" unique_id=716428793]
 layout_mode = 2
@@ -266,7 +265,22 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("3_2xfq1")
 
 [node name="pokedex" parent="." unique_id=1357983449 instance=ExtResource("4_jwel6")]
-position = Vector2(6, 1638)
+position = Vector2(0, 1632)
+
+[node name="search" type="Label" parent="." unique_id=332126273]
+layout_mode = 0
+offset_left = 1335.0
+offset_top = 1896.0
+offset_right = 1483.0
+offset_bottom = 1936.0
+theme_override_fonts/font = ExtResource("3_2xfq1")
+theme_override_font_sizes/font_size = 40
+text = "Search:"
+
+[node name="magnifying_glass" type="Sprite2D" parent="." unique_id=1234265165]
+position = Vector2(1764, 1962)
+scale = Vector2(0.07, 0.07)
+texture = ExtResource("6_caahp")
 
 [connection signal="pressed" from="database_dex/button_right" to="database_dex" method="_on_button_right_pressed"]
 [connection signal="pressed" from="database_dex/button_left" to="database_dex" method="_on_button_left_pressed"]

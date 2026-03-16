@@ -5,7 +5,6 @@
 [ext_resource type="Texture2D" uid="uid://c2mgjerchdu2y" path="res://assets/media/images/trainer_image.png" id="3_sugp2"]
 [ext_resource type="Texture2D" uid="uid://c44fdxiug66x3" path="res://assets/media/sprites/menu_background.png" id="4_673bd"]
 [ext_resource type="PackedScene" uid="uid://cxv73a6yh73q7" path="res://scenes/pokedex/pkdx_hud.tscn" id="6_tefeu"]
-[ext_resource type="Script" uid="uid://cfe0qwkaceysw" path="res://scripts/pkdx_hud.gd" id="7_o6xl0"]
 [ext_resource type="Texture2D" uid="uid://ch5n1cmny25a" path="res://assets/media/sprites/sprite_sheets_danny/aerodactyl.png" id="10_2wyq8"]
 [ext_resource type="Script" uid="uid://o4jkw78vdseh" path="res://scripts/animations.gd" id="10_choun"]
 [ext_resource type="Texture2D" uid="uid://cq8f2yatcmfvb" path="res://assets/media/sprites/sprite_sheets_danny/articuno-ezgif.com-gif-to-sprite-converter.png" id="11_vxglm"]
@@ -78,7 +77,6 @@
 [ext_resource type="Texture2D" uid="uid://0ebs4pu6wju7" path="res://assets/media/sprites/sprite_sheets_sem/golduck-ezgif.com-gif-to-sprite-converter.png" id="55_vny5k"]
 [ext_resource type="Texture2D" uid="uid://ctxwlf6t7xm0h" path="res://assets/media/sprites/sprite_sheets_sem/golem-ezgif.com-gif-to-sprite-converter.png" id="56_8lcmr"]
 [ext_resource type="Texture2D" uid="uid://72be20nnu18p" path="res://assets/media/sprites/sprite_sheets_danny/mewtwo-ezgif.com-gif-to-sprite-converter.png" id="56_b6ruc"]
-[ext_resource type="Texture2D" uid="uid://b0gfxl68yxvr3" path="res://assets/media/sprites/sprite_sheets_danny/missingno-ezgif.com-gif-to-sprite-converter.png" id="57_155or"]
 [ext_resource type="Texture2D" uid="uid://boq38llrdgo6n" path="res://assets/media/sprites/sprite_sheets_sem/graveler-ezgif.com-gif-to-sprite-converter.png" id="57_ga3rw"]
 [ext_resource type="Texture2D" uid="uid://ec0besrwnd3a" path="res://assets/media/sprites/sprite_sheets_sem/ivysaur-ezgif.com-gif-to-sprite-converter.png" id="58_knlx5"]
 [ext_resource type="Texture2D" uid="uid://bohhbmvsh4kr6" path="res://assets/media/sprites/sprite_sheets_danny/moltres-ezgif.com-gif-to-sprite-converter.png" id="58_vtx2l"]
@@ -118,6 +116,7 @@
 [ext_resource type="Texture2D" uid="uid://cnc17wmh32ob" path="res://assets/media/sprites/sprite_sheets_danny/voltorb-ezgif.com-gif-to-sprite-converter.png" id="83_xmrkg"]
 [ext_resource type="Texture2D" uid="uid://dioje46m6dl8j" path="res://assets/media/sprites/sprite_sheets_danny/weezing-ezgif.com-gif-to-sprite-converter.png" id="84_wvlrk"]
 [ext_resource type="Texture2D" uid="uid://cijhll6dh7x64" path="res://assets/media/sprites/sprite_sheets_danny/zapdos-ezgif.com-gif-to-sprite-converter.png" id="85_engxj"]
+[ext_resource type="Texture2D" uid="uid://bam6deex58rea" path="res://assets/media/images/missingno_by_cortoony_ddl7rju-fullview-2279844697.png" id="88_1m7le"]
 [ext_resource type="Texture2D" uid="uid://d36465jgpcrwu" path="res://assets/media/sprites/sprite_sheets_sem/nidoking-ezgif.com-gif-to-sprite-converter.png" id="89_eo1ke"]
 [ext_resource type="Texture2D" uid="uid://so7sgr7n2b6o" path="res://assets/media/sprites/sprite_sheets_sem/nidoqueen-ezgif.com-gif-to-sprite-converter.png" id="90_j5vj0"]
 [ext_resource type="Texture2D" uid="uid://bosmau6qcbgkt" path="res://assets/media/sprites/sprite_sheets_sem/nidoranf-ezgif.com-gif-to-sprite-converter.png" id="91_kec7f"]
@@ -18079,8 +18078,8 @@ atlas = ExtResource("56_b6ruc")
 region = Rect2(400, 1496, 100, 88)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_udmkb"]
-atlas = ExtResource("57_155or")
-region = Rect2(0, 0, 498, 498)
+atlas = ExtResource("88_1m7le")
+region = Rect2(0, 0, 355, 285)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4bgeo"]
 atlas = ExtResource("58_vtx2l")
@@ -58693,7 +58692,6 @@ offset_left = -4.0
 offset_top = -6.0
 offset_right = -4.0
 offset_bottom = -6.0
-script = ExtResource("7_o6xl0")
 
 [node name="back_button" type="Button" parent="pkdx_hud" unique_id=835296128]
 z_index = -2
@@ -58709,7 +58707,7 @@ texture_filter = 1
 position = Vector2(915.3992, 2027.2107)
 scale = Vector2(2.3687606, 2.4728105)
 sprite_frames = SubResource("SpriteFrames_bfu41")
-animation = &"mew.gif"
+animation = &"missingno.gif"
 script = ExtResource("10_choun")
 
 [connection signal="pressed" from="pkdx_hud/back_button" to="pkdx_hud" method="_on_back_button_pressed"]
