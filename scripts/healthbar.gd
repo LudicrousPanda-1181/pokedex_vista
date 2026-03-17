@@ -28,11 +28,10 @@ func _on_button_fight_pressed() -> void:
 		print("The Pokemon died")
 		value = max_value
 
-
-func _on_button_catch_pressed() -> void:
-	print("You pressed the Catch button!")
-	
-	
 func _on_button_run_pressed() -> void:
 	value = max_value
 	battle_text.text = ""
+
+
+func _on_button_catch_pressed() -> void:
+	pass # Replace with function body.

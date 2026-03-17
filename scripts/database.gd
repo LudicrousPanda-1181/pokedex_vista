@@ -108,7 +108,7 @@ func _on_button_right_pressed() -> void:
 		current_id = 152
 	play_animation_from_id(current_id)
 	update_dex_info_by_id(current_id)
-	print(current_id)
+
 
 
 
@@ -118,7 +118,7 @@ func _on_button_left_pressed() -> void:
 		current_id = 0
 	play_animation_from_id(current_id)
 	update_dex_info_by_id(current_id)
-	print(current_id)
+
 
 
 

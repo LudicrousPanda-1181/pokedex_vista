@@ -58737,7 +58737,7 @@ texture_filter = 1
 position = Vector2(-948.99994, -382.99994)
 scale = Vector2(3.2173913, 3.1698112)
 sprite_frames = SubResource("SpriteFrames_uxdas")
-animation = &"missingno.gif"
+animation = &"nidoqueen.gif"
 script = ExtResource("155_pe8w8")
 
 [node name="battle_progress_txt" type="Label" parent="." unique_id=182794401]
@@ -58754,6 +58754,5 @@ theme_override_font_sizes/font_size = 64
 [connection signal="pressed" from="VboxContainer1/button_fight" to="healthbar" method="_on_button_fight_pressed"]
 [connection signal="pressed" from="VboxContainer1/button_dex" to="." method="_on_button_dex_pressed"]
 [connection signal="pressed" from="VBoxContainer2/button_catch" to="." method="_on_button_catch_pressed"]
-[connection signal="pressed" from="VBoxContainer2/button_catch" to="healthbar" method="_on_button_catch_pressed"]
 [connection signal="pressed" from="VBoxContainer2/button_run" to="." method="_on_button_run_pressed"]
 [connection signal="pressed" from="VBoxContainer2/button_run" to="healthbar" method="_on_button_run_pressed"]

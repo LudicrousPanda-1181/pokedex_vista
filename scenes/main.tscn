@@ -58707,7 +58707,7 @@ texture_filter = 1
 position = Vector2(915.3992, 2027.2107)
 scale = Vector2(2.3687606, 2.4728105)
 sprite_frames = SubResource("SpriteFrames_bfu41")
-animation = &"missingno.gif"
+animation = &"mrmime.gif"
 script = ExtResource("10_choun")
 
 [connection signal="pressed" from="pkdx_hud/back_button" to="pkdx_hud" method="_on_back_button_pressed"]

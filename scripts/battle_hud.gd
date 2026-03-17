@@ -31,14 +31,16 @@ func update_dex_info_by_id(id):
 			
 			pkmn_name.text = str(pokemon["pkmn_name"])
 
-
+# GENERATING A RANDOM PKMN
+func pkmn_randomizer():
+	current_id = randi_range(0,151)
+	play_animation_from_id(current_id)
+	update_dex_info_by_id(current_id)
 
 
 # RUN BUTTON PRESSED
 func _on_button_run_pressed() -> void:
-	current_id = randi_range(0,151)
-	play_animation_from_id(current_id)
-	update_dex_info_by_id(current_id)
+	pkmn_randomizer()
 
 
 
@@ -46,3 +48,7 @@ func _on_button_run_pressed() -> void:
 func _on_button_dex_pressed() -> void:
 	print("You pressed the DEX button!!!")
 	$"../camera".position.y =  2169.0
+
+
+func _on_button_catch_pressed() -> void:
+	pkmn_randomizer()
