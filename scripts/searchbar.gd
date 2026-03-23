@@ -1,5 +1,6 @@
 extends Control
 
+class_name Searchbar
 
 @onready var database = $database_dex
 @onready var search_bar = $database_dex/searchbar
@@ -47,3 +48,5 @@ func _on_button_pressed(button):
 	
 	database.play_animation_from_id(pokemon_id - 1)
 	database.update_dex_info_by_id(pokemon_id - 1)
+	
+	return pokemon_id

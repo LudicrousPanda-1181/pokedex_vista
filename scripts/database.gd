@@ -26,7 +26,6 @@ func _ready() -> void:
 
 
 
-
 func create_table() -> void:
 	var table: Dictionary = {
 		"id" : {
@@ -101,14 +100,13 @@ func update_dex_info_by_id(id):
 			pkmn_nmbr_box.text = "#" + str(pokemon["id"])
 
 
-
+# DEX NAVIGATION
 func _on_button_right_pressed() -> void:
 	current_id += 1
 	if current_id > 152:
 		current_id = 152
 	play_animation_from_id(current_id)
 	update_dex_info_by_id(current_id)
-
 
 
 
@@ -121,7 +119,7 @@ func _on_button_left_pressed() -> void:
 
 
 
-
+# SEARCH FUNCTION
 func search_pokemon(search_text : String):
 
 	search_text = search_text.to_lower()
@@ -132,3 +130,13 @@ func search_pokemon(search_text : String):
 		return database.query_result
 
 	return []
+
+
+func sending_current_id():
+	print("your current ID in battle is: " + str(current_id))
+	return current_id
+
+
+# CATCH FUNCTION
+func catch_pkmn_update_by_id(id):
+	database.query("UPDATE pokemon SET pkmn_caught_counter = pkmn_caught_counter + 1 WHERE id = %d;" % (id + 1))

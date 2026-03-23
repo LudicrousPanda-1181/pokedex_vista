@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://c5fuobu7unw04" path="res://scripts/text_script.gd" id="2_jwel6"]
 [ext_resource type="FontFile" uid="uid://c6yp5km4ufegx" path="res://assets/media/fonts/connection_ii/ConnectionII.otf" id="3_2xfq1"]
 [ext_resource type="PackedScene" uid="uid://cxpd8oxuq8o8v" path="res://scenes/pokedex/pokedex.tscn" id="4_jwel6"]
+[ext_resource type="Texture2D" uid="uid://hghghoclglyt" path="res://assets/media/images/white_triangle_dpad.png" id="5_h1osa"]
 [ext_resource type="Texture2D" uid="uid://cipuvp4tf0y6i" path="res://assets/media/images/lupa-283987705.png" id="6_caahp"]
 
 [node name="pkdx_hud" type="Control" unique_id=1045566788]
@@ -281,6 +282,23 @@ text = "Search:"
 position = Vector2(1764, 1962)
 scale = Vector2(0.07, 0.07)
 texture = ExtResource("6_caahp")
+
+[node name="WhiteTriangleDpad" type="Sprite2D" parent="." unique_id=341428419]
+texture_filter = 1
+position = Vector2(1696, 2435)
+rotation = 1.5707964
+texture = ExtResource("5_h1osa")
+
+[node name="WhiteTriangleDpad2" type="Sprite2D" parent="." unique_id=49467170]
+texture_filter = 1
+position = Vector2(1446, 2435)
+rotation = -1.5707964
+texture = ExtResource("5_h1osa")
+
+[node name="WhiteTriangle" type="Sprite2D" parent="." unique_id=67776118]
+texture_filter = 1
+position = Vector2(1763, 1662)
+texture = ExtResource("5_h1osa")
 
 [connection signal="pressed" from="database_dex/button_right" to="database_dex" method="_on_button_right_pressed"]
 [connection signal="pressed" from="database_dex/button_left" to="database_dex" method="_on_button_left_pressed"]
