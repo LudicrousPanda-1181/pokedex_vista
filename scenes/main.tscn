@@ -58659,7 +58659,7 @@ animations = [{
 
 [node name="Main" type="Node2D" unique_id=1217186146]
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=202523027]
+[node name="background_pic" type="TextureRect" parent="." unique_id=202523027]
 z_index = -1
 texture_filter = 1
 offset_right = 1920.0
@@ -58679,6 +58679,7 @@ position = Vector2(960, 540)
 
 [node name="AudioPlayer" parent="camera" unique_id=1575154027 instance=ExtResource("4_d7502")]
 stream = ExtResource("159_qr8e4")
+volume_db = -2.0
 autoplay = true
 script = ExtResource("1_d7502")
 
