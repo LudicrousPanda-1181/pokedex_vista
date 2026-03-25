@@ -12,7 +12,6 @@ func _on_back_button_pressed() -> void:
 
 
 func _ready():
-
 	search_bar.text_changed.connect(_on_search_text_changed)
 
 	for b in buttons:
@@ -43,10 +42,9 @@ func _on_search_text_changed(new_text : String):
 			buttons[i].hide()
 
 func _on_button_pressed(button):
-	
+	# ID SETUP SEARCH BAR BUTTONS
 	var pokemon_id = button.get_meta("id")
-	
-	database.play_animation_from_id(pokemon_id - 1)
-	database.update_dex_info_by_id(pokemon_id - 1)
-	
+	database.current_id = pokemon_id - 1
+	database.play_animation_from_id(pokemon_id -1)
+	database.update_dex_info_by_id(pokemon_id -1)
 	return pokemon_id

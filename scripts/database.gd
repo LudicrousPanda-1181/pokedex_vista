@@ -16,15 +16,13 @@ var current_id: int = 0
 @onready var pkmn_nmbr_box: Label = $text_alignment/pkmn_nmbr/pkmn_nmbr_box
 
 
+
+
 func _ready() -> void:
 	database = SQLite.new()
 	database.path = "res://db/pkmn_database_gen1_complete.db"
 	database.open_db()
 	
-	play_animation_from_id(current_id)
-	update_dex_info_by_id(current_id)
-
-
 
 func create_table() -> void:
 	var table: Dictionary = {
@@ -54,8 +52,8 @@ func create_table() -> void:
 		"pkmn_evolves_at": {
 			"data_type": "text"
 		},
-		
 		"pkmn_caught_counter": {
+		
 			"data_type": "real"
 		},
 		
@@ -67,7 +65,7 @@ func create_table() -> void:
 			"data_type": "text"
 		}
 	}
-	database.create_table("pkmn_table", table)
+	database.create_table("pokemon", table)
 
 
 
@@ -98,7 +96,10 @@ func update_dex_info_by_id(id):
 			pkmn_evolve_box.text = str(pokemon["pkmn_evolves_at"])
 			pkmn_caught_box.text = str(pokemon["pkmn_caught_counter"]) + " times"
 			pkmn_nmbr_box.text = "#" + str(pokemon["id"])
-
+		# QUERY FAILED
+		if !database.query(query):
+			print("Query failed: ", database.error_message)
+			return
 
 # DEX NAVIGATION
 func _on_button_right_pressed() -> void:
@@ -132,7 +133,7 @@ func search_pokemon(search_text : String):
 	return []
 
 
-func sending_current_id():
+func sending_current_id() -> int:
 	print("your current ID in battle is: " + str(current_id))
 	return current_id
 

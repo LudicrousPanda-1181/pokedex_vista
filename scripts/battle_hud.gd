@@ -1,13 +1,12 @@
 extends Control
 
 # DATABASE
-var database = SQLite
-var current_id = 0
+var database: SQLite
 
-# NODES
-@onready var animations: Node = $animations
-@onready var trainer_mon_animations: Node = $trainer_mon
-@onready var pkmn_name: Label = $healthbar/pkmn_name_battle
+@onready var animations: Node = $BattleAnimations/animations
+@onready var trainer_mon_animations: Node =$BattleAnimations/trainer_mon
+@onready var pkmn_name_battle: Label = $healthbar_enemy/pkmn_name_battle
+
 
 
 func _ready() -> void:
@@ -23,6 +22,8 @@ func play_animation_from_id(id):
 		animations.play(animation_name)
 		return animation_name
 
+	print("No animation found for ID:", id)
+
 func update_dex_info_by_id(id):
 	var query = "SELECT * FROM pokemon WHERE id = " + str(id + 1) + ";"
 	
@@ -32,7 +33,7 @@ func update_dex_info_by_id(id):
 		if result.size() > 0:
 			var pokemon = result[0]
 			
-			pkmn_name.text = str(pokemon["pkmn_name"])
+			pkmn_name_battle.text = str(pokemon["pkmn_name"])
 
 # GENERATING A RANDOM PKMN
 func pkmn_randomizer():
@@ -51,3 +52,4 @@ func _on_button_run_pressed() -> void:
 func _on_button_dex_pressed() -> void:
 	print("You pressed the DEX button!!!")
 	$"../camera".position.y =  2169.0
+	

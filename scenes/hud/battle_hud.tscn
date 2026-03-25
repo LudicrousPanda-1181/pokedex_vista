@@ -2,25 +2,45 @@
 
 [ext_resource type="Script" uid="uid://briny8krw6cld" path="res://scripts/battle_hud.gd" id="1_ifjka"]
 [ext_resource type="Script" uid="uid://lk6gdfo6mlk6" path="res://scripts/battle_logic.gd" id="2_3afe4"]
+[ext_resource type="Texture2D" uid="uid://dixoiygkhqpjo" path="res://assets/GUI/healthbar/healthbar5.png" id="2_8o4dm"]
 [ext_resource type="FontFile" uid="uid://c6yp5km4ufegx" path="res://assets/media/fonts/connection_ii/ConnectionII.otf" id="3_1uua8"]
+[ext_resource type="Texture2D" uid="uid://co5app4omrhle" path="res://assets/GUI/healthbar/healthbar1.png" id="3_l7doy"]
 [ext_resource type="Texture2D" uid="uid://ch5n1cmny25a" path="res://assets/sprites/sprite_sheets_danny/aerodactyl.png" id="4_cc0f7"]
+[ext_resource type="Texture2D" uid="uid://n7igokjmajck" path="res://assets/GUI/healthbar/healthbar2.png" id="4_vgb7j"]
 [ext_resource type="Texture2D" uid="uid://b113flglbd7md" path="res://assets/sprites/sprite_sheets_sem/alakazam-ezgif.com-gif-to-sprite-converter.png" id="5_7jfy0"]
+[ext_resource type="Texture2D" uid="uid://bveirh2iyqnm6" path="res://assets/GUI/button_assets_v2/fight/fight1.png" id="5_pnbj4"]
 [ext_resource type="Texture2D" uid="uid://frh0wo6sovv6" path="res://assets/sprites/sprite_sheets_sem/arbok-ezgif.com-gif-to-sprite-converter.png" id="6_2qmn4"]
+[ext_resource type="Texture2D" uid="uid://72ix486g6hgg" path="res://assets/GUI/button_assets_v2/fight/fight3.png" id="6_ulkyt"]
+[ext_resource type="Texture2D" uid="uid://b8smrff02cvv" path="res://assets/GUI/atk_power_progressbar/atk_pwr_progressbar4.png" id="7_0kpsb"]
+[ext_resource type="Texture2D" uid="uid://dwqt1xvsi2mhr" path="res://assets/GUI/button_assets_v2/fight/fight2.png" id="7_31nhe"]
 [ext_resource type="Texture2D" uid="uid://btf48yuse6i7a" path="res://assets/sprites/sprite_sheets_sem/arcanine-ezgif.com-gif-to-sprite-converter.png" id="7_fvj8b"]
+[ext_resource type="Texture2D" uid="uid://b7tla2j3j2nwy" path="res://assets/GUI/atk_power_progressbar/atk_pwr_progressbar1.png" id="8_170et"]
 [ext_resource type="Texture2D" uid="uid://cq8f2yatcmfvb" path="res://assets/sprites/sprite_sheets_danny/articuno-ezgif.com-gif-to-sprite-converter.png" id="8_ap2lf"]
+[ext_resource type="Texture2D" uid="uid://boa0j67lk1ben" path="res://assets/GUI/button_assets_v2/dex/dex1.png" id="8_pnbj4"]
+[ext_resource type="Texture2D" uid="uid://cvteqagv0jnvn" path="res://assets/GUI/atk_power_progressbar/atk_pwr_progressbar2.png" id="9_3e2ln"]
 [ext_resource type="Texture2D" uid="uid://dj7p7wus6vrf6" path="res://assets/sprites/sprite_sheets_sem/beedrill-ezgif.com-gif-to-sprite-converter.png" id="9_qy5en"]
+[ext_resource type="Texture2D" uid="uid://foalrut0n337" path="res://assets/GUI/button_assets_v2/dex/dex3.png" id="9_ulkyt"]
+[ext_resource type="Texture2D" uid="uid://cg6sbopigjbwd" path="res://assets/GUI/button_assets_v2/dex/dex2.png" id="10_31nhe"]
 [ext_resource type="Texture2D" uid="uid://b3nwfneabihew" path="res://assets/sprites/sprite_sheets_sem/bellsprout-ezgif.com-gif-to-sprite-converter.png" id="10_l8m0y"]
 [ext_resource type="Texture2D" uid="uid://bdbkysc4xm4fm" path="res://assets/sprites/sprite_sheets_sem/blastoise-ezgif.com-gif-to-sprite-converter.png" id="11_6mteu"]
+[ext_resource type="Texture2D" uid="uid://dtbx42gtvkncr" path="res://assets/GUI/button_assets_v2/catch/catch1.png" id="11_8o4dm"]
 [ext_resource type="Texture2D" uid="uid://bm2uf8aidfrwo" path="res://assets/sprites/sprite_sheets_sem/bulbasaur-ezgif.com-gif-to-sprite-converter.png" id="12_7kb1s"]
+[ext_resource type="Texture2D" uid="uid://b2uopv50h0xhi" path="res://assets/GUI/button_assets_v2/catch/catch3.png" id="12_l7doy"]
 [ext_resource type="Texture2D" uid="uid://b33scvdvyplhm" path="res://assets/sprites/sprite_sheets_sem/butterfree-ezgif.com-gif-to-sprite-converter.png" id="13_047ih"]
+[ext_resource type="Texture2D" uid="uid://cps7fbja7rjf1" path="res://assets/GUI/button_assets_v2/catch/catch2.png" id="13_vgb7j"]
 [ext_resource type="Texture2D" uid="uid://bntooybapyuny" path="res://assets/sprites/sprite_sheets_sem/caterpie-ezgif.com-gif-to-sprite-converter.png" id="14_2yesq"]
+[ext_resource type="Texture2D" uid="uid://ch5vjrvpm8h8y" path="res://assets/GUI/button_assets_v2/run/run1.png" id="14_yej3w"]
+[ext_resource type="Texture2D" uid="uid://xj08jcpwxdfq" path="res://assets/GUI/button_assets_v2/run/run3.png" id="15_0kpsb"]
 [ext_resource type="Texture2D" uid="uid://cgell87q473it" path="res://assets/sprites/sprite_sheets_danny/chansey-ezgif.com-gif-to-sprite-converter.png" id="15_0twh7"]
+[ext_resource type="Texture2D" uid="uid://dnes8k0ct5stg" path="res://assets/GUI/button_assets_v2/run/run2.png" id="16_170et"]
 [ext_resource type="Texture2D" uid="uid://cx7kba76504nm" path="res://assets/sprites/sprite_sheets_sem/charizard-ezgif.com-gif-to-sprite-converter.png" id="16_qjdcd"]
 [ext_resource type="Texture2D" uid="uid://doq3ki6pu7t8m" path="res://assets/sprites/sprite_sheets_sem/charmander-ezgif.com-gif-to-sprite-converter.png" id="17_41dcr"]
 [ext_resource type="Texture2D" uid="uid://qqlben04j5bo" path="res://assets/sprites/sprite_sheets_sem/charmeleon-ezgif.com-gif-to-sprite-converter.png" id="18_s8yrf"]
 [ext_resource type="Texture2D" uid="uid://bs2yqnrn72p2" path="res://assets/sprites/sprite_sheets_sem/clefable-ezgif.com-gif-to-sprite-converter.png" id="19_57l78"]
 [ext_resource type="Texture2D" uid="uid://mp2k643du2v5" path="res://assets/sprites/sprite_sheets_sem/clefairy-ezgif.com-gif-to-sprite-converter.png" id="20_83h5n"]
+[ext_resource type="Texture2D" uid="uid://dbcalm8up0hfo" path="res://assets/GUI/backdrop/UI.png" id="20_l7doy"]
 [ext_resource type="Texture2D" uid="uid://5l54ak5e3p1f" path="res://assets/sprites/sprite_sheets_danny/cloyster-ezgif.com-gif-to-sprite-converter.png" id="21_8cwkv"]
+[ext_resource type="Texture2D" uid="uid://dy8ntsp0ha83s" path="res://assets/GUI/backdrop/UI_flipped.png" id="21_vgb7j"]
 [ext_resource type="Texture2D" uid="uid://b2331h0kawfvj" path="res://assets/sprites/sprite_sheets_danny/cubone-ezgif.com-gif-to-sprite-converter.png" id="22_c2pv6"]
 [ext_resource type="Texture2D" uid="uid://wvyaiv2tcbr0" path="res://assets/sprites/sprite_sheets_danny/dewgong-ezgif.com-gif-to-sprite-converter.png" id="23_6bj6m"]
 [ext_resource type="Texture2D" uid="uid://ds4wa3bg3bmhe" path="res://assets/sprites/sprite_sheets_sem/diglett-ezgif.com-gif-to-sprite-converter.png" id="24_46uu4"]
@@ -158,11 +178,712 @@
 [ext_resource type="Script" uid="uid://o4jkw78vdseh" path="res://scripts/animations.gd" id="155_pe8w8"]
 [ext_resource type="Texture2D" uid="uid://c2mgjerchdu2y" path="res://assets/media/images/trainer_image.png" id="157_2qmn4"]
 [ext_resource type="Texture2D" uid="uid://dwi5ju2q6ryk5" path="res://assets/sprites/hero_back_sprites/charizard-ezgif.com-gif-to-sprite-converter.png" id="157_7kb1s"]
-[ext_resource type="Texture2D" uid="uid://c44fdxiug66x3" path="res://assets/sprites/menu_background.png" id="157_fvj8b"]
 [ext_resource type="Texture2D" uid="uid://bb1r5plpo5sej" path="res://assets/sprites/hero_back_sprites/venusaur-ezgif.com-gif-to-sprite-converter.png" id="158_047ih"]
 [ext_resource type="Texture2D" uid="uid://c2h5hwmyh6hhv" path="res://assets/sprites/hero_back_sprites/pidgeot-ezgif.com-gif-to-sprite-converter.png" id="159_2yesq"]
 [ext_resource type="Texture2D" uid="uid://bk4psrn8v4t4u" path="res://assets/sprites/hero_back_sprites/blastoise-ezgif.com-gif-to-sprite-converter.png" id="160_0twh7"]
 [ext_resource type="Texture2D" uid="uid://bm53xnhliado4" path="res://assets/sprites/hero_back_sprites/butterfree-ezgif.com-gif-to-sprite-converter.png" id="161_qjdcd"]
+[ext_resource type="Texture2D" uid="uid://b34tjybav5nmx" path="res://assets/media/images/pokeball.png" id="176_ibxd3"]
+[ext_resource type="AudioStream" uid="uid://ctdkqrwanx5qm" path="res://assets/media/audio/sfx/animation_sfx/hit_sfx_reworked.ogg" id="177_4sym1"]
+[ext_resource type="AudioStream" uid="uid://cibnej0fisue3" path="res://assets/media/audio/sfx/animation_sfx/pokeball-throw-made-with-Voicemod.ogg" id="178_l4pwu"]
+[ext_resource type="AudioStream" uid="uid://cbxsbf8xt1nlv" path="res://assets/media/audio/sfx/animation_sfx/pokeball_sound_effects_mp3cut_3.ogg" id="179_nhrkn"]
+[ext_resource type="AudioStream" uid="uid://r7tdca3ybmfb" path="res://assets/media/audio/sfx/animation_sfx/pkbl_wobble.ogg" id="180_4sym1"]
+[ext_resource type="AudioStream" uid="uid://v2abwcxkinhy" path="res://assets/media/audio/sfx/animation_sfx/pkbl_fall.ogg" id="181_pnbj4"]
+[ext_resource type="AudioStream" uid="uid://dwxd4pwairh43" path="res://assets/media/audio/sfx/animation_sfx/faahhhhhhhh.ogg" id="182_nhrkn"]
+[ext_resource type="AudioStream" uid="uid://bnlbwv7xy0r0k" path="res://assets/media/audio/sfx/GUI_sfx/button_sound_reworked.ogg" id="183_4sym1"]
+[ext_resource type="AudioStream" uid="uid://cs4sft21s2v85" path="res://assets/media/audio/sfx/animation_sfx/run_away_sfx.ogg" id="184_pnbj4"]
+
+[sub_resource type="Animation" id="Animation_7kb1s"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(971.00006, 697.00006)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../trainer_mon:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(641.9999, 933)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../trainer_mon:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../trainer_mon:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath(".:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../run_fade:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../Pokeball:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(332, 1044)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath(".:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../Pokeball:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath(".:scale")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(3.2173913, 3.1698112)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("../Pokeball:modulate")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("../Pokeball:visible")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../sfx_anim_player/hit_sfx:playing")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../sfx_anim_player/pkbl_throw:playing")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../sfx_anim_player/pkbl_catch:playing")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../sfx_anim_player/pkbl_fall:playing")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../sfx_anim_player/pkbl_wobble:playing")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("../sfx_anim_player/faaaahhhhhhh:playing")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_ibxd3"]
+resource_name = "catching_succes"
+length = 3.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Pokeball:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1.0729408, 1.2062742),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(328, 1068), Vector2(967, 384), Vector2(967, 384), Vector2(977, 667)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.8333333, 2.9333334),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../Pokeball:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.46666667, 1.1333333, 1.3040388, 1.8666667, 1.9666667, 2.0666666, 2.3666668, 2.4666667, 2.5666666),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 6.283185307179586, 6.2831855, 6.2831855, 6.2831855, 5.235987755982989, 6.2831855, 6.2831855, 7.330382858376184, 6.2831855]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.53333336, 2.9, 3.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(18.892157, 18.892157, 18.892157, 1), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.53333336, 0.8333333, 0.8666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(971.00006, 697.00006), Vector2(971.00006, 697.00006), Vector2(971, 600), Vector2(971, 697)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath(".:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.56666666, 0.8333333, 2.2333333, 2.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(3.2173913, 3.1698112), Vector2(3.2173913, 3.1698112), Vector2(1.015, 1), Vector2(1.015, 1), Vector2(3.2173913, 3.1698112)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../Pokeball:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.43333334, 2.8333333, 2.9863143, 3.158943),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 0, 0, 1), Color(1, 1, 0.99524117, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../Pokeball:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0.26666668, 2.9666667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../sfx_anim_player/pkbl_throw:playing")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../sfx_anim_player/pkbl_fall:playing")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../sfx_anim_player/pkbl_wobble:playing")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(1.8333334, 2.3666666),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("../sfx_anim_player/faaaahhhhhhh:playing")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(2.9333334),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_o2e7g"]
+resource_name = "catching_succes"
+length = 3.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Pokeball:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1.0729408, 1.2062742),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(328, 1068), Vector2(967, 384), Vector2(967, 384), Vector2(977, 667)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.8333333, 3.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../Pokeball:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.46666667, 1.1333333, 1.3040388, 1.5, 1.6, 1.7, 2, 2.1, 2.2, 2.4, 2.5, 2.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 6.283185307179586, 6.2831855, 6.2831855, 6.2831855, 5.235987755982989, 6.2831855, 6.2831855, 7.330382858376184, 6.2831855, 6.2831855, 5.235987755982989, 6.283185307179586]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.53333336, 0.56666666, 0.8666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(18.892157, 18.892157, 18.892157, 1), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.53333336, 0.8333333, 3.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(971.00006, 697.00006), Vector2(971.00006, 697.00006), Vector2(971, 600), Vector2(971, 697)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath(".:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.56666666, 0.8333333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(3.2173913, 3.1698112), Vector2(3.2173913, 3.1698112), Vector2(1.015, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../Pokeball:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.43333334, 3, 3.1, 3.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(0, 1, 0, 1), Color(1, 1, 0.99524117, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../sfx_anim_player/pkbl_catch:playing")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(2.7666667),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../sfx_anim_player/pkbl_throw:playing")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../sfx_anim_player/pkbl_fall:playing")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0.93333334),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../sfx_anim_player/pkbl_wobble:playing")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(1.4333333, 2, 2.4666667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, true, true]
+}
+
+[sub_resource type="Animation" id="Animation_047ih"]
+resource_name = "damage_taken"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(971.00006, 697.00006), Vector2(971.00006, 697.00006), Vector2(1071, 697), Vector2(971, 697)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.4, 0.46666667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 0, 0, 1), Color(1, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../trainer_mon:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.36, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(641.9999, 933), Vector2(500, 933), Vector2(742, 833), Vector2(641.9999, 933)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../trainer_mon:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.36, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.17453292519943295, 0.17453292519943295, 0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath(".:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.5707963267948966, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../sfx_anim_player/hit_sfx:playing")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.26666668),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="Animation" id="Animation_2yesq"]
+resource_name = "hero_mon_damage"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../trainer_mon:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.39, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(641.9999, 933), Vector2(642, 933), Vector2(542, 933), Vector2(642, 933)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../trainer_mon:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.39, 0.4, 0.48, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 0, 0, 1), Color(1, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.39, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.3490658503988659, -0.17453292519943295, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.39, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(971.00006, 697.00006), Vector2(1050, 697), Vector2(971, 697)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../trainer_mon:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.39, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, -1.5707963267948966, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../sfx_anim_player/hit_sfx:playing")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.33333334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="Animation" id="Animation_46uu4"]
+resource_name = "run_away_fade"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../run_fade:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.23333333, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0.49019608), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2yesq"]
+_data = {
+&"RESET": SubResource("Animation_7kb1s"),
+&"catching_failure": SubResource("Animation_ibxd3"),
+&"catching_succes": SubResource("Animation_o2e7g"),
+&"damage_taken": SubResource("Animation_047ih"),
+&"hero_mon_damage": SubResource("Animation_2yesq"),
+&"run_away_fade": SubResource("Animation_46uu4")
+}
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gr8w0"]
 load_path = "res://.godot/imported/abra.png-825abb0cca239e29eea47c802227f242.ctex"
@@ -61305,22 +62026,27 @@ grow_horizontal = 0
 grow_vertical = 0
 script = ExtResource("1_ifjka")
 
-[node name="healthbar" type="ProgressBar" parent="." unique_id=1548297566]
+[node name="healthbar_enemy" type="TextureProgressBar" parent="." unique_id=1874357486]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -438.0
-offset_top = -977.0
-offset_right = -167.0
+offset_left = -492.0
+offset_top = -1010.0
+offset_right = -164.0
 offset_bottom = -946.0
 grow_horizontal = 0
-theme_override_fonts/font = ExtResource("3_1uua8")
 step = 10.0
 value = 100.0
+texture_under = ExtResource("2_8o4dm")
+texture_over = ExtResource("3_l7doy")
+texture_progress = ExtResource("4_vgb7j")
 script = ExtResource("2_3afe4")
+max_hp = null
+damage_points = null
+catch_odds = null
 
-[node name="pkmn_name_battle" type="Label" parent="healthbar" unique_id=1689956423]
+[node name="pkmn_name_battle" type="Label" parent="healthbar_enemy" unique_id=1689956423]
 texture_filter = 1
 layout_mode = 0
 offset_left = 3.0
@@ -61332,78 +62058,76 @@ theme_override_fonts/font = ExtResource("3_1uua8")
 theme_override_font_sizes/font_size = 32
 text = "Bulbasaur"
 
-[node name="level_disp" type="Label" parent="healthbar" unique_id=2133881401]
+[node name="level_disp" type="Label" parent="healthbar_enemy" unique_id=2133881401]
 layout_mode = 0
-offset_left = 295.0
-offset_top = 8.0
-offset_right = 343.0
-offset_bottom = 33.0
+offset_left = 350.0
+offset_top = 31.0
+offset_right = 414.0
+offset_bottom = 64.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_1uua8")
-theme_override_font_sizes/font_size = 24
+theme_override_font_sizes/font_size = 32
 text = "lv. 75"
 
-[node name="health_bar_player" type="ProgressBar" parent="healthbar" unique_id=752842650]
+[node name="health_bar_player" type="TextureProgressBar" parent="healthbar_enemy" unique_id=468681961]
 layout_mode = 0
-offset_left = -1449.0
-offset_top = 5.0
-offset_right = -1200.0
-offset_bottom = 32.0
-theme_override_fonts/font = ExtResource("3_1uua8")
+offset_left = -1407.0
+offset_top = -3.0
+offset_right = -1079.0
+offset_bottom = 61.0
 step = 20.0
 value = 100.0
+texture_under = ExtResource("2_8o4dm")
+texture_over = ExtResource("3_l7doy")
+texture_progress = ExtResource("4_vgb7j")
 
-[node name="level_display_player" type="Label" parent="healthbar/health_bar_player" unique_id=1540488891]
+[node name="level_display_player" type="Label" parent="healthbar_enemy/health_bar_player" unique_id=1540488891]
 texture_filter = 1
 layout_mode = 0
-offset_left = 283.0
-offset_top = 1.0
-offset_right = 331.0
-offset_bottom = 26.0
+offset_left = 345.0
+offset_top = 33.0
+offset_right = 409.0
+offset_bottom = 66.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_1uua8")
-theme_override_font_sizes/font_size = 24
+theme_override_font_sizes/font_size = 32
 text = "lv. 72"
 
-[node name="pkmn_name_battle_player" type="Label" parent="healthbar/health_bar_player" unique_id=323092502]
+[node name="pkmn_name_battle_player" type="Label" parent="healthbar_enemy/health_bar_player" unique_id=323092502]
 texture_filter = 1
 layout_mode = 0
-offset_left = 5.0
-offset_top = -56.0
-offset_right = 123.0
-offset_bottom = -23.0
+offset_left = 3.0
+offset_top = -44.0
+offset_right = 121.0
+offset_bottom = -11.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_1uua8")
 theme_override_font_sizes/font_size = 32
 text = "Pikachu"
 
-[node name="animations" type="AnimatedSprite2D" parent="." unique_id=756516120]
-z_index = -1
-texture_filter = 1
-position = Vector2(-948.99994, -382.99994)
-scale = Vector2(3.2173913, 3.1698112)
-sprite_frames = SubResource("SpriteFrames_uxdas")
-animation = &"bulbasaur.gif"
-script = ExtResource("155_pe8w8")
+[node name="attack_meter" type="TextureProgressBar" parent="healthbar_enemy" unique_id=1832372611]
+layout_mode = 0
+offset_left = 444.0
+offset_top = 1002.0
+offset_right = 695.0
+offset_bottom = 1034.0
+rotation = -1.5707964
+step = 2.0
+texture_under = ExtResource("7_0kpsb")
+texture_over = ExtResource("8_170et")
+texture_progress = ExtResource("9_3e2ln")
 
 [node name="battle_progress_txt" type="Label" parent="." unique_id=182794401]
 texture_filter = 1
 layout_mode = 0
-offset_left = -402.0
-offset_top = -178.0
-offset_right = 18.0
-offset_bottom = -113.0
+offset_left = -504.0
+offset_top = -194.0
+offset_right = -84.0
+offset_bottom = -129.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_1uua8")
 theme_override_font_sizes/font_size = 40
 text = "What will you do?"
-
-[node name="trainer_mon" type="AnimatedSprite2D" parent="." unique_id=1290984912]
-texture_filter = 1
-position = Vector2(-1278.0001, -147)
-scale = Vector2(5, 5)
-sprite_frames = SubResource("SpriteFrames_170et")
-animation = &"1"
 
 [node name="TrainerImage" type="Sprite2D" parent="." unique_id=710833202]
 texture_filter = 1
@@ -61413,10 +62137,10 @@ texture = ExtResource("157_2qmn4")
 
 [node name="button_allignment" type="Control" parent="." unique_id=2054926251]
 anchors_preset = 0
-offset_left = -226.0
-offset_top = -33.0
-offset_right = -53.0
-offset_bottom = -33.0
+offset_left = -130.0
+offset_top = -8.0
+offset_right = -130.0
+offset_bottom = -8.0
 
 [node name="VboxContainer1" type="VBoxContainer" parent="button_allignment" unique_id=1579368865]
 layout_mode = 1
@@ -61425,23 +62149,30 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -373.0
-offset_top = -70.0
-offset_right = -200.0
+offset_left = -376.0
+offset_top = -127.0
+offset_right = -203.0
+offset_bottom = 5.0
 grow_horizontal = 0
 grow_vertical = 0
 
-[node name="button_fight" type="Button" parent="button_allignment/VboxContainer1" unique_id=1909852284]
+[node name="button_fight" type="TextureButton" parent="button_allignment/VboxContainer1" unique_id=176429800]
+texture_filter = 1
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_1uua8")
-theme_override_font_sizes/font_size = 24
-text = "FIGHT"
+texture_normal = ExtResource("5_pnbj4")
+texture_pressed = ExtResource("6_ulkyt")
+texture_hover = ExtResource("7_31nhe")
+texture_disabled = ExtResource("5_pnbj4")
+stretch_mode = 3
 
-[node name="button_dex" type="Button" parent="button_allignment/VboxContainer1" unique_id=728137731]
+[node name="button_dex" type="TextureButton" parent="button_allignment/VboxContainer1" unique_id=2075300935]
+texture_filter = 1
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_1uua8")
-theme_override_font_sizes/font_size = 24
-text = "DEX"
+texture_normal = ExtResource("8_pnbj4")
+texture_pressed = ExtResource("9_ulkyt")
+texture_hover = ExtResource("10_31nhe")
+texture_disabled = ExtResource("8_pnbj4")
+stretch_mode = 3
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="button_allignment" unique_id=764645751]
 layout_mode = 1
@@ -61457,43 +62188,122 @@ offset_bottom = 4.0
 grow_horizontal = 0
 grow_vertical = 0
 
-[node name="button_catch" type="Button" parent="button_allignment/VBoxContainer2" unique_id=47271252]
+[node name="button_catch" type="TextureButton" parent="button_allignment/VBoxContainer2" unique_id=1481340973]
+texture_filter = 1
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_1uua8")
-theme_override_font_sizes/font_size = 24
-text = "CATCH"
+texture_normal = ExtResource("11_8o4dm")
+texture_pressed = ExtResource("12_l7doy")
+texture_hover = ExtResource("13_vgb7j")
+texture_disabled = ExtResource("11_8o4dm")
+stretch_mode = 3
 
-[node name="button_run" type="Button" parent="button_allignment/VBoxContainer2" unique_id=586812894]
+[node name="button_run" type="TextureButton" parent="button_allignment/VBoxContainer2" unique_id=32495223]
+texture_filter = 1
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_1uua8")
-theme_override_font_sizes/font_size = 24
-text = "RUN"
+keep_pressed_outside = true
+texture_normal = ExtResource("14_yej3w")
+texture_pressed = ExtResource("15_0kpsb")
+texture_hover = ExtResource("16_170et")
+texture_disabled = ExtResource("14_yej3w")
+stretch_mode = 3
 
 [node name="MenuBackground" type="Sprite2D" parent="." unique_id=382810508]
 z_index = -1
 texture_filter = 1
-position = Vector2(-192, -53)
-scale = Vector2(5.257813, 4.906251)
-texture = ExtResource("157_fvj8b")
+position = Vector2(-288, -136)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("20_l7doy")
 
 [node name="MenuBackground2" type="Sprite2D" parent="." unique_id=134273094]
 z_index = -1
 texture_filter = 1
-position = Vector2(-201, -1048)
-scale = Vector2(5.257813, 4.906251)
-texture = ExtResource("157_fvj8b")
+position = Vector2(47, -851)
+rotation = 3.1415927
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("21_vgb7j")
+centered = false
 
 [node name="MenuBackground3" type="Sprite2D" parent="." unique_id=1561862900]
 z_index = -1
 texture_filter = 1
-position = Vector2(-1814.0001, -1070)
-scale = Vector2(6, 6)
-texture = ExtResource("157_fvj8b")
+position = Vector2(-1629, -1021)
+rotation = 3.1415927
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("20_l7doy")
+
+[node name="BattleAnimations" type="AnimationPlayer" parent="." unique_id=1500152194]
+root_node = NodePath("animations")
+libraries/ = SubResource("AnimationLibrary_2yesq")
+
+[node name="animations" type="AnimatedSprite2D" parent="BattleAnimations" unique_id=756516120]
+z_index = -1
+texture_filter = 1
+position = Vector2(971.00006, 697.00006)
+scale = Vector2(3.2173913, 3.1698112)
+sprite_frames = SubResource("SpriteFrames_uxdas")
+animation = &"bulbasaur.gif"
+script = ExtResource("155_pe8w8")
+
+[node name="trainer_mon" type="AnimatedSprite2D" parent="BattleAnimations" unique_id=1290984912]
+texture_filter = 1
+position = Vector2(641.9999, 933)
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_170et")
+animation = &"1"
+
+[node name="Pokeball" type="Sprite2D" parent="BattleAnimations" unique_id=1732689849]
+z_index = 4
+position = Vector2(332, 1044)
+texture = ExtResource("176_ibxd3")
+
+[node name="run_fade" type="ColorRect" parent="BattleAnimations" unique_id=361161585]
+visible = false
+z_index = 5
+offset_left = -256.0
+offset_top = -180.0
+offset_right = 2130.0
+offset_bottom = 1172.0
+
+[node name="sfx_anim_player" type="Node2D" parent="BattleAnimations" unique_id=37512865]
+position = Vector2(1920, 1080)
+
+[node name="hit_sfx" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=525191422]
+stream = ExtResource("177_4sym1")
+volume_db = 10.0
+
+[node name="pkbl_throw" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=881469212]
+stream = ExtResource("178_l4pwu")
+volume_db = 24.0
+
+[node name="pkbl_catch" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=1857864649]
+stream = ExtResource("179_nhrkn")
+volume_db = 24.0
+
+[node name="pkbl_wobble" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=36014428]
+stream = ExtResource("180_4sym1")
+volume_db = 15.0
+
+[node name="pkbl_fall" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=415880766]
+stream = ExtResource("181_pnbj4")
+volume_db = 15.0
+
+[node name="faaaahhhhhhh" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=1104502402]
+stream = ExtResource("182_nhrkn")
+volume_db = 24.0
+
+[node name="button_click" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=1443342074]
+stream = ExtResource("183_4sym1")
+volume_db = 24.0
+
+[node name="run_away_sfx" type="AudioStreamPlayer2D" parent="BattleAnimations/sfx_anim_player" unique_id=391182109]
+stream = ExtResource("184_pnbj4")
+volume_db = 24.0
 
 [connection signal="pressed" from="button_allignment/VboxContainer1/button_fight" to="." method="_on_button_fight_pressed"]
-[connection signal="pressed" from="button_allignment/VboxContainer1/button_fight" to="healthbar" method="_on_button_fight_pressed"]
+[connection signal="pressed" from="button_allignment/VboxContainer1/button_fight" to="healthbar_enemy" method="_on_button_fight_pressed"]
 [connection signal="pressed" from="button_allignment/VboxContainer1/button_dex" to="." method="_on_button_dex_pressed"]
 [connection signal="pressed" from="button_allignment/VBoxContainer2/button_catch" to="." method="_on_button_catch_pressed"]
-[connection signal="pressed" from="button_allignment/VBoxContainer2/button_catch" to="healthbar" method="_on_button_catch_pressed"]
+[connection signal="pressed" from="button_allignment/VBoxContainer2/button_catch" to="healthbar_enemy" method="_on_button_catch_pressed"]
 [connection signal="pressed" from="button_allignment/VBoxContainer2/button_run" to="." method="_on_button_run_pressed"]
-[connection signal="pressed" from="button_allignment/VBoxContainer2/button_run" to="healthbar" method="_on_button_run_pressed"]
+[connection signal="pressed" from="button_allignment/VBoxContainer2/button_run" to="healthbar_enemy" method="_on_button_run_pressed"]
+[connection signal="animation_finished" from="BattleAnimations" to="healthbar_enemy" method="_on_battle_animations_animation_finished"]
